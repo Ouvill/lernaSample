@@ -1,7 +1,9 @@
-'use strict';
+"use strict";
 
-const lerna1 = require('..');
+const lerna1 = require("..");
 
-describe('lerna1', () => {
-    it('needs tests');
+describe("lerna1", () => {
+  test("needs tests", () => {
+    expect(1 + 2).toBe(3);
+  });
 });
